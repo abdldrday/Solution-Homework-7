@@ -1,5 +1,3 @@
-package iterator_pattern;
-
 class Episode {
     private String title;
     private int runtimeSec;
@@ -13,8 +11,3 @@ class Episode {
     public int getRuntimeSec() { return runtimeSec; }
 }
 
-
-interface EpisodeIterator {
-    boolean hasNext();
-    Episode next();
-}
